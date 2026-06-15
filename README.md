@@ -1,19 +1,22 @@
 ![n8n-goal-loop](assets/banner.png)
 
-## n8n-goal-loop
+# n8n-goal-loop
 
-__把 n8n 工作流需求转成可直接复制的 /goal，驱动 Agent 跑完整「构建 → 验证 → 部署 → 分层测试 → 迭代」闭环的 Skill__
+**把 n8n 工作流需求转成可直接复制的 /goal，驱动 Agent 跑完整「构建 → 验证 → 部署 → 分层测试 → 迭代」闭环的 Skill**
 
-__想了解更多最新 AI 行业动态，AI+电商/广告的行业实践方法，人与 AI 如何协作共生的思考，请关注公众号：【新西楼】__
+**想了解更多最新AI行业动态，AI+电商/广告的行业实践方法，人与AI如何协作共生的思考，请关注公众号：【新西楼.AI】**
+![qrcode_for_gh_e3b954bd3859_258](https://github.com/user-attachments/assets/d8f068d9-c4f8-46c7-914c-fbcab5d52f2a)
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Version](https://img.shields.io/badge/version-0.1.0-black)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-orange)
 ![Codex](https://img.shields.io/badge/Codex-compatible-blue)
 
-__九要素 goal | 四层访谈对齐 | 11个references知识库 | 6类踩坑预防__
+**九要素 goal | 四层访谈对齐 | 11个references知识库 | 6类踩坑预防**
 
-__Created By Blue@新西楼.AI__
+**Created By Buluu@新西楼.AI**
+
+</div>
 
 ---
 
