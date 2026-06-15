@@ -7,6 +7,7 @@
 **把 n8n 工作流需求转成可直接复制的 /goal，驱动 Agent 跑完整「构建 → 验证 → 部署 → 分层测试 → 迭代」闭环的 Skill**
 
 **想了解更多最新AI行业动态，AI+电商/广告的行业实践方法，人与AI如何协作共生的思考，请关注公众号：【新西楼.AI】**
+
 ![qrcode_for_gh_e3b954bd3859_258](https://github.com/user-attachments/assets/d8f068d9-c4f8-46c7-914c-fbcab5d52f2a)
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
