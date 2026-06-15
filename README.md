@@ -1,6 +1,7 @@
 <div align="center">
     
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/17692fd7-be64-429b-8f24-e1620a8be52a" />
+
 # n8n-goal-loop
 
 **把 n8n 工作流需求转成可直接复制的 /goal，驱动 Agent 跑完整「构建 → 验证 → 部署 → 分层测试 → 迭代」闭环的 Skill**
