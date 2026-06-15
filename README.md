@@ -4,6 +4,9 @@
 
 __把 n8n 工作流需求转成可直接复制的 /goal，驱动 Agent 跑完整「构建 → 验证 → 部署 → 分层测试 → 迭代」闭环的 Skill__
 
+__想了解更多最新 AI 行业动态，AI+电商/广告的行业实践方法，人与 AI 如何协作共生的思考，请关注公众号：【新西楼】__
+![新西楼公众号](assets/qrcode.jpg)
+
 ![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Version](https://img.shields.io/badge/version-0.1.0-black)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-orange)
@@ -11,7 +14,7 @@ __把 n8n 工作流需求转成可直接复制的 /goal，驱动 Agent 跑完整
 
 __九要素 goal | 四层访谈对齐 | 11个references知识库 | 6类踩坑预防__
 
-__Created By Blue@新蓝核.AI__
+__Created By Buluu@新西楼__
 
 ---
 
@@ -109,7 +112,8 @@ n8n-goal-loop/
 ├── scripts/
 │   └── lint_goal_command.py        # 九要素检查 + n8n 危险词
 └── assets/
-    └── banner.png
+    ├── banner.png
+    └── qrcode.jpg
 ```
 
 ## 工作原理
@@ -133,8 +137,9 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 联系方式
 
-__Blue@新蓝核.AI__
+__Buluu@新西楼__
 
+- 公众号：新西楼 — AI+电商/广告行业实践，人与 AI 协作思考
 - GitHub Issues：https://github.com/buluslan/n8n-goal-loop/issues
 
 ---
