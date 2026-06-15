@@ -1,0 +1,24 @@
+interface:
+  display_name: "n8n Goal Loop"
+  short_description: "Turn an n8n workflow need into a nine-element /goal (with node pipeline, data-flow, error handling, layered test) via a short alignment interview."
+  default_prompt: "Use $n8n-goal-loop to turn this n8n workflow need into a strong /goal command. Run the four-layer alignment interview first (goal & deliverable, node pipeline, selection, red lines), then output the nine-element goal. If I use Chinese, keep the command prefix as /goal and first provide 推荐执行版（中文，可直接复制）, then an English-compatible mirror. Auto-fill data-flow, error handling, constraints, verification, iteration, completion, pause from standard n8n best practice; ask me only about goal, node pipeline, generic-category selection, and red lines. Separate script test from end-to-end test; execution success alone is not completion proof."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "generic"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "drafts a nine-element n8n /goal from the alignment interview"
+    claude: "drafts a nine-element agent goal for n8n workflow work"
+    generic: "uses the canonical nine-element template and runs the four-layer interview when needed"

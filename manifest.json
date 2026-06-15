@@ -1,0 +1,29 @@
+{
+  "name": "n8n-goal-loop",
+  "version": "0.1.0",
+  "owner": "n8n-goal-loop",
+  "updated_at": "2026-06-15",
+  "status": "local",
+  "maturity_tier": "production-lite",
+  "lifecycle_stage": "skill",
+  "context_budget_tier": "light",
+  "review_cadence": "monthly",
+  "target_platforms": [
+    "openai",
+    "claude",
+    "generic",
+    "agent-skills-compatible"
+  ],
+  "outputs": [
+    "n8n-goal-command",
+    "nine-element-goal",
+    "node-pipeline-spec",
+    "data-flow-contract",
+    "error-handling-policy",
+    "layered-test-plan",
+    "alignment-interview",
+    "goal-command-lint"
+  ],
+  "forked_from": "qiaomu-goal-meta-skill by 向阳乔木 (https://github.com/joeseesun), MIT",
+  "copyright": "Copyright (c) 2026 n8n-goal-loop contributors"
+}
