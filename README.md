@@ -24,15 +24,19 @@
 
 ## 项目简介
 
-n8n-goal-loop 是一款 n8n 工作流开发的 goal 生成 Skill。当你让 Agent 搭建 n8n 工作流时，常因需求没说清而烂尾、跑偏、改不完——这个 Skill 先通过 2-3 轮对齐访谈帮你想清楚工作流的目标、节点链路和交付结果，再产出一份九要素 /goal，驱动 Agent 全自动完成开发测试闭环。
+n8n-goal-loop 是一款 n8n 工作流开发的 goal 生成 Skill。当你让 Agent 搭建 n8n 工作流时，常因需求没说清而烂尾、跑偏、改不完——这个 Skill 先通过 2-3 轮对齐访谈帮你想清楚工作流的目标、节点链路和交付结果，再产出一份九要素 /goal，驱动 Agent 完成开发测试闭环。
 
 Skill 本身**只生成 goal**，不搭建、不部署、不运行工作流。
+
+**本Skill的目标是为不熟悉 goal 指令编写的朋友快速搭建一个较高质量的基础内容，不代表使用这个 goal 就能一劳永逸，还需要根据 /goal 的实际运行情况逐步优化。**
 
 __兼容性广泛__：基于 agent-skills 标准，可在任何支持 Skill 的 Agent 中使用：
 
 - Claude Code
 - Codex（原生支持 /goal 命令）
 - Cursor / OpenClaw / Gemini CLI 等（skills.sh 生态）
+
+**在具有goal指令的Agent中，输入【/goal+空格+本skill产出的goal内容】，回车键输入，即可运行~**
 
 ---
 
